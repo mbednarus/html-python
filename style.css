@@ -1,0 +1,139 @@
+body {
+    background-color: #646464;
+    font-family: 'Lato', sans-serif;
+}
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a_link {
+	text-decoration: none;
+	color: white;
+}
+#header {
+    color: white;
+    margin-top: 20px;
+    font-size: 47px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+#logo {
+	float: left;
+	width: 45px;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#img_logo {
+	width: 35px;
+	height: 35px;
+}
+#text_logo {
+	float: left;
+}
+#menu {
+    background-color: #303030;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+#topbar {
+    background-color: #FFE873;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 190px;
+}
+#topbarL {
+    float: left;
+    padding: 20px;
+	margin-top:10px;
+    width: 138px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+#topbarR {
+    float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align: justify;
+	color: black;
+}
+#sidebar {
+    float: left;
+    width: 148px;
+    min-height: 620px;
+    padding: 20px;
+    background-color: #4B8BBE;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+}
+#content {
+    float: left;
+    padding: 25px;
+    width: 760px;
+    background-color: #4B8BBE;
+    min-height: 610px;
+    text-align: justify;
+}
+ul > li {
+	list-style-type: circle;
+}
+#footer {
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+.option {
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px datted #444444;
+    opacity: 0.8;
+}
+.option:hover {
+    background-color: #000000;
+    cursor: pointer;
+}
+.optionL {
+    font-size: 17px;
+    height: 25px;
+    padding: 15px;
+    border-bottom: 2px dotted #444444;
+	font-weight: 600;
+	color: black;
+}
+.optionL:hover {
+    background-color: #306998;
+    color: white;
+    cursor: pointer;
+}
+.bigtitle {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.dottedline {
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #444444;
+}
+td, th {
+	border: 1px solid black;
+	padding: 5px;
+}
+th {
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+}

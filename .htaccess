@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule odkryj-pythona index.html
+RewriteRule guido-van-rossum tworca.html
+RewriteRule wyglad-skladni-pythona skladnia.html
+RewriteRule biblioteki-pythona biblioteki.html
+RewriteRule typy-danych-w-pythonie typy.html
